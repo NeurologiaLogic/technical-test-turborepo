@@ -1,5 +1,5 @@
 import { db } from "../config/firebaseConfig.js";
-import { User } from "../entities/user.js";
+import { User } from "@monorepo/types";
 
 export const updateUser = async (userId: string, data: Partial<User>): Promise<void> => {
   try {

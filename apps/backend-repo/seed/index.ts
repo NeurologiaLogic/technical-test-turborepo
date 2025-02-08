@@ -1,5 +1,5 @@
 import { db } from "../config/firebaseConfig";
-import { User } from "../entities/user"; 
+import { User } from "@monorepo/types";
 import { hashPassword } from "../lib/crypto";
 
 const plainPassword = "pass123";
